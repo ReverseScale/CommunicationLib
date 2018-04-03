@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'CommunicationLib_Example' do
+  pod 'CommunicationLib', :path => '../'
+
+  target 'CommunicationLib_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
