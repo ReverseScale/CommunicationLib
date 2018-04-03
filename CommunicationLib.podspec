@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CommunicationLib'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Call native communication package.'
 
 # This description is used to generate tags and improve search results.
